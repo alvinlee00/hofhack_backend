@@ -1,0 +1,4 @@
+localhost:8443 {
+  tls ./cert.pem ./key.pem
+  reverse_proxy localhost:2024
+}
